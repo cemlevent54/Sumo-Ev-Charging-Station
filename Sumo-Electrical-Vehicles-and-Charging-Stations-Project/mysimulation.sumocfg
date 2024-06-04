@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-03 11:27:17 by Eclipse SUMO sumo Version 1.20.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="myNet.net.xml"/>
+        <route-files value="simulationRoute.rou.xml"/>
+        <additional-files value="mysimulation.add.xml"/>
+    </input>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="ayarlarFilexml.xml"/>
+    </gui_only>
+
+</configuration>

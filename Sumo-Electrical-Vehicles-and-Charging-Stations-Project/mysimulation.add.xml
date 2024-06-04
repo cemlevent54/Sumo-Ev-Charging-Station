@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-01 20:49:57 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <chargingStation id="cs_0" lane="E21_0" startPos="10.97" endPos="20.97" friendlyPos="true" power="5000000.00" chargeInTransit="1" chargeDelay="2" chargeType="electric"/>
+    <chargingStation id="cs_1" lane="E24_0" startPos="25.67" endPos="35.67" friendlyPos="true" power="5000000.00" chargeInTransit="1" chargeDelay="2" chargeType="electric"/>
+    <chargingStation id="cs_2" lane="E17_0" startPos="44.74" endPos="54.74" friendlyPos="true" power="5000000.00" chargeInTransit="1" chargeDelay="2" chargeType="electric"/>
+    <chargingStation id="cs_3" lane="E2_0" startPos="58.72" endPos="68.72" friendlyPos="true" power="5000000.00" chargeInTransit="1" chargeDelay="2" chargeType="electric"/>
+    <chargingStation id="cs_4" lane="E19_0" startPos="55.71" endPos="65.71" friendlyPos="true" power="5000000.00" chargeInTransit="1" chargeDelay="2" chargeType="electric"/>
+    <chargingStation id="cs_5" lane="E6_0" startPos="39.23" endPos="49.23" friendlyPos="true" power="5000000.00" chargeInTransit="1" chargeDelay="2" chargeType="electric"/>
+    <chargingStation id="cs_6" lane="E3_0" startPos="49.00" endPos="59.00" friendlyPos="true" power="5000000.00" chargeInTransit="1" chargeDelay="2" chargeType="electric"/>
+    <chargingStation id="cs_7" lane="E14_0" startPos="46.30" endPos="56.30" friendlyPos="true" power="5000000.00" chargeDelay="2" chargeInTransit="1" chargeType="electric"/>
+    <chargingStation id="cs_8" lane="E16_0" startPos="49.95" endPos="59.95" friendlyPos="true" power="5000000.00" chargeDelay="2" chargeInTransit="1" chargeType="electric"/>
+    <chargingStation id="cs_9" lane="E8_0" startPos="37.32" endPos="47.32" friendlyPos="true" power="5000000.00" chargeDelay="2" chargeInTransit="1" chargeType="electric"/>
+</additional>

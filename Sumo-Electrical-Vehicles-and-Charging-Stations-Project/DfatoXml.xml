@@ -1,0 +1,32 @@
+<dfa>
+    <!-- durumlar (states)-->
+    <states>
+        <!--Initial State - şarj durumunun %40 üzerinde olması durumu(işlem yok) -->
+        <state name="s1" initial="true" final="false"/>  
+        <!-- şarj durumunun %15-%40 arasında olması durumu -->
+        <state name="s2" initial="false" final="false"/>
+        <!-- Final State - şarj durumunun %15 altında olması durumu -->
+        <state name="s3" initial="false" final="true"/>
+    </states>
+    <!-- alfabe (input) -->
+    <alphabet>
+        <!-- %40'un üstünde ve normal durum -->
+        <symbol>a</symbol>
+        <!-- %15-%40 arasında ve normal durum -->
+        <symbol>b</symbol>
+        <!-- %15'un altında veya otomatik durum -->
+        <symbol>c</symbol>
+    </alphabet>
+    <!-- durumlar arası geçişler -->
+    <transitions>
+        <!-- s1 durumundayken a inputu verilmesi  --> <transition from="s1" to="s1" input="a"/>
+        <transition from="s1" to="s2" input="b"/>
+        <transition from="s1" to="s3" input="c"/>
+        <transition from="s2" to="s1" input="a"/>
+        <transition from="s2" to="s2" input="b"/>
+        <transition from="s2" to="s3" input="c"/>
+        <transition from="s3" to="s1" input="a"/>
+        <transition from="s3" to="s2" input="b"/>
+        <transition from="s3" to="s3" input="c"/>
+    </transitions>
+</dfa>
