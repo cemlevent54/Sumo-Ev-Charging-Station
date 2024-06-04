@@ -1,7 +1,7 @@
 
 # SUMO ile Batarya Yönetimi Simülasyonu
 
-Bu proje, SUMO (Simulation of Urban MObility) ve Python betiğini entegre ederek araç hareketlerini simüle eder, batarya seviyelerini izler ve bataryası düşük olan araçları şarj istasyonlarına yönlendirir. Simülasyon, Tkinter kullanılarak oluşturulmuş bir grafik arayüzde görselleştirilir.
+Bu proje, SUMO (Simulation of Urban MObility) ve Python scriptini entegre ederek araç hareketlerini simüle eder, batarya seviyelerini izler ve bataryası düşük olan araçları şarj istasyonlarına yönlendirir. Simülasyon, Tkinter kullanılarak oluşturulmuş bir grafik arayüzde görselleştirilir.
 
 ## Gereksinimler
 
