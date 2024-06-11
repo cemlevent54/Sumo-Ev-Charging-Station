@@ -22,7 +22,7 @@ Bu proje, SUMO (Simulation of Urban MObility) ve Python scriptini entegre ederek
 
 ## Dosya Yapısı
 
-- `main.py`: Simülasyonu çalıştırmak için ana betik.
+- `main.py`: Simülasyonu çalıştırmak için ana script.
 - `sumo_cfg_file`: SUMO yapılandırma dosyanızın yolu.
 - `sumo_network_file`: SUMO ağ dosyanızın yolu.
 - `sumo_charging_station_file`: Şarj istasyonlarını içeren SUMO ek dosyanızın yolu.
@@ -31,7 +31,7 @@ Bu proje, SUMO (Simulation of Urban MObility) ve Python scriptini entegre ederek
 ## Kullanım
 
 1. **Yolları Güncelleyin:**
-   Betikteki yer tutucu yolları, SUMO yapılandırma, ağ, ek ve rota XML dosyalarınızın gerçek yollarıyla değiştirin:
+   Scriptteki yer tutucu yolları, SUMO yapılandırma, ağ, ek ve rota XML dosyalarınızın gerçek yollarıyla değiştirin:
    ```python
    sumo_cfg_file = "yapılandırma-dosyanızın-yolu"
    sumo_network_file = "ağ-dosyanızın-yolu"
@@ -39,8 +39,8 @@ Bu proje, SUMO (Simulation of Urban MObility) ve Python scriptini entegre ederek
    xml_file = "rota-xml-dosyanızın-yolu"
    ```
 
-2. **Betik Çalıştırma:**
-   Simülasyonu başlatmak için ana betiği çalıştırın:
+2. **Script Çalıştırma:**
+   Simülasyonu başlatmak için ana scripti çalıştırın:
    ```bash
    python main.py
    ```
@@ -71,7 +71,7 @@ Bu proje, SUMO (Simulation of Urban MObility) ve Python scriptini entegre ederek
 
 ## Ek Notlar
 
-- **Batarya Yönetimi:** Betik, araçların batarya seviyelerini izler. Batarya seviyesi %40'ın altına düştüğünde uyarı mesajı gösterilir ve araç en yakın şarj istasyonuna yönlendirilir.
+- **Batarya Yönetimi:** Script, araçların batarya seviyelerini izler. Batarya seviyesi %40'ın altına düştüğünde uyarı mesajı gösterilir ve araç en yakın şarj istasyonuna yönlendirilir.
 - **Rota Yönetimi:** Araçlar bataryası düşük olduğunda şarj istasyonlarına yönlendirilir ve şarj olduktan sonra orijinal rotalarına dönerler.
 
 Bu Python scripti, kontrollü bir kentsel mobilite ortamında batarya yönetim stratejilerini test etmek için kapsamlı bir simülasyon ortamı sağlar.
